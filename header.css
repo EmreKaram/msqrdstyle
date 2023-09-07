@@ -99,16 +99,6 @@ body {
     transform: scale(1);
   }
 }
-@font-face {
-  font-family: lg;
-  src: url(https://msqrd.vercel.app/fonts/lg.woff2) format("woff2"),
-    url(https://msqrd.vercel.app/fonts/lg.ttf) format("truetype"),
-    url(https://msqrd.vercel.app/fonts/lg.woff) format("woff"),
-    url(https://msqrd.vercel.app/img/lg.svg#lg) format("svg");
-  font-weight: 400;
-  font-style: normal;
-  font-display: block;
-}
 @-webkit-keyframes lg-right-end {
   0% {
     left: 0;
@@ -232,11 +222,6 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
 }
-body {
-  margin: 0;
-  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial,
-    sans-serif, Apple Color Emoji, Segoe UI Emoji;
-}
 [type="button"],
 [type="reset"],
 [type="submit"] {
@@ -273,17 +258,6 @@ ul {
 }
 ul {
   list-style: none;
-}
-html {
-  font-family: FuturaPT, ui-sans-serif, system-ui, -apple-system,
-    BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans,
-    sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
-    Noto Color Emoji;
-  line-height: 1.5;
-}
-body {
-  font-family: inherit;
-  line-height: inherit;
 }
 *,
 :after,
@@ -432,58 +406,6 @@ img {
   pointer-events: none;
 }
 @font-face {
-  font-family: FuturaPT;
-  src: url(https://msqrd.vercel.app/fonts/FuturaPT-Book.eot);
-  src: url(https://msqrd.vercel.app/fonts/FuturaPT-Book.eot)
-      format("embedded-opentype"),
-    url(https://msqrd.vercel.app/fonts/FuturaPT-Book.woff2) format("woff2"),
-    url(https://msqrd.vercel.app/fonts/FuturaPT-Book.woff) format("woff"),
-    url(https://msqrd.vercel.app/fonts/FuturaPT-Book.ttf) format("truetype"),
-    url(https://msqrd.vercel.app/img/FuturaPT-Book.svg) format("svg");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: FuturaPT;
-  src: url(https://msqrd.vercel.app/fonts/FuturaPT-Medium.eot);
-  src: url(https://msqrd.vercel.app/fonts/FuturaPT-Medium.eot)
-      format("embedded-opentype"),
-    url(https://msqrd.vercel.app/fonts/FuturaPT-Medium.woff2) format("woff2"),
-    url(https://msqrd.vercel.app/fonts/FuturaPT-Medium.woff) format("woff"),
-    url(https://msqrd.vercel.app/fonts/FuturaPT-Medium.ttf) format("truetype"),
-    url(https://msqrd.vercel.app/img/FuturaPT-Medium.svg) format("svg");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: FuturaPT;
-  src: url(https://msqrd.vercel.app/fonts/FuturaPT-Demi.eot);
-  src: url(https://msqrd.vercel.app/fonts/FuturaPT-Demi.eot)
-      format("embedded-opentype"),
-    url(https://msqrd.vercel.app/fonts/FuturaPT-Demi.woff2) format("woff2"),
-    url(https://msqrd.vercel.app/fonts/FuturaPT-Demi.woff) format("woff"),
-    url(https://msqrd.vercel.app/fonts/FuturaPT-Demi.ttf) format("truetype"),
-    url(https://msqrd.vercel.app/img/FuturaPT-Demi.svg) format("svg");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: FuturaPT;
-  src: url(https://msqrd.vercel.app/fonts/FuturaPT-Heavy.eot);
-  src: url(https://msqrd.vercel.app/fonts/FuturaPT-Heavy.eot)
-      format("embedded-opentype"),
-    url(https://msqrd.vercel.app/fonts/FuturaPT-Heavy.woff2) format("woff2"),
-    url(https://msqrd.vercel.app/fonts/FuturaPT-Heavy.woff) format("woff"),
-    url(https://msqrd.vercel.app/fonts/FuturaPT-Heavy.ttf) format("truetype"),
-    url(https://msqrd.vercel.app/img/FuturaPT-Heavy.svg) format("svg");
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
   font-family: Liquid Crystal Display;
   src: url(https://msqrd.vercel.app/font/Liquid-CrystalDisplay.eot);
   src: local("Liquid Crystal Display Normal"), local("Liquid-CrystalDisplay"),
@@ -499,18 +421,8 @@ img {
   font-style: normal;
   font-display: swap;
 }
-@font-face {
-  font-family: pz-icon;
-  src: url(https://msqrd.vercel.app/fonts/pz-icon.eot)
-      format("embedded-opentype"),
-    url(https://msqrd.vercel.app/fonts/pz-icon.woff2) format("woff2"),
-    url(https://msqrd.vercel.app/fonts/pz-icon.woff) format("woff"),
-    url(https://msqrd.vercel.app/fonts/pz-icon.ttf) format("truetype"),
-    url(https://msqrd.vercel.app/img/pz-icon.svg) format("svg");
-}
 [class*=" pz-icon-"],
 [class^="pz-icon-"] {
-  font-family: pz-icon !important;
   font-style: normal;
   font-weight: 400 !important;
   font-variant: normal;
