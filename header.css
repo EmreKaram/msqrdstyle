@@ -2666,21 +2666,9 @@ samp {
     Liberation Mono, Courier New, monospace;
 }
 
-audio,
-canvas,
-embed,
-iframe,
-img,
-object,
-svg,
-video {
-  display: block;
-  vertical-align: middle;
-}
-
 img,
 video {
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
 }
 
