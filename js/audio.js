@@ -15,9 +15,9 @@ const audio = document.querySelector("audio");
 button.addEventListener("click", () => {
   if (audio.paused) {
     audio.play();
-    icon.src = volumeMuteSVGPath;
+    icon.src = volumeUpSVGPath;
   } else {
     audio.pause();
-    icon.src = volumeUpSVGPath;
+    icon.src = volumeMuteSVGPath;
   }
 });
