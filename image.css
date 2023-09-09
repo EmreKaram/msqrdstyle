@@ -244,8 +244,8 @@ nav {
 }
 #audio-button {
   position: fixed;
-  top: 4rem;
-  right: 1rem;
+  top: 6%;
+  right: 0.1%;
   padding: 10px;
   
   display: block;
