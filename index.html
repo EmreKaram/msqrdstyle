@@ -23,9 +23,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link type="text/css" rel="stylesheet" href="header.css" />
     <link type="text/css" rel="stylesheet" href="image.css" />
-    <link rel="preload" href="https://f80bc8e2.cdn.akinoncloud.com/static_omnishop/vakkorama348/fonts/Liquid-CrystalDisplay.woff2" as="font" type="font/woff2" crossorigin="">
     <script src="js/preloader.js"></script>
     <script src="js/slideshow.js" defer></script>
+    <script src="js/audio.js" defer></script>
+    <link rel="preload" href="https://f80bc8e2.cdn.akinoncloud.com/static_omnishop/vakkorama348/fonts/Liquid-CrystalDisplay.woff2" as="font" type="font/woff2" crossorigin="">
+    <script src="https://kit.fontawesome.com/726aedc96a.js" crossorigin="anonymous"></script>
     <title>MSQRD</title>
   </head>
   <body>
@@ -132,18 +134,23 @@
     </div>
     <!--Slides-->
     <div id="slides-container"> 
-        <img src="images/af_1.jpg" class="slide" style="display: none;">
-        <img src="images/af_2.jpg" class="slide" style="display: block;">
-        <img src="images/af_3.jpg" class="slide" style="display: none;">
-        <img src="images/af_4.jpg" class="slide" style="display: none;">
-        <img src="images/af_5.jpg" class="slide" style="display: none;">
-        <img src="images/af_6.jpg" class="slide" style="display: none;">
+        <img src="images/af_1.jpg" class="slide">
+        <img src="images/af_2.jpg" class="slide">
+        <img src="images/af_3.jpg" class="slide">
+        <img src="images/af_4.jpg" class="slide">
+        <img src="images/af_5.jpg" class="slide">
+        <img src="images/af_6.jpg" class="slide">
     </div>
     <!--Logo section-->
     <div class="logo-section-home">
       <a href="index.html"><img src="images/MSQRD-Logo.svg" id="af-logo-home" alt=""></a>
     </div>
+    <audio loop="">
+      <source src="audio/ravingmp3.mp3" type="audio/mp3">
+    </audio>
+    <button id="audio-button" class="no-fade">
+      <img id="audio-icon" src="svg/volume-mute.svg" alt="Volume Icon">
+    </button>
   </section>
-    <script src="script.js"></script>
   </body>
 </html>

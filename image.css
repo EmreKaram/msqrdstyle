@@ -242,3 +242,26 @@ nav {
     width: 65%;
   }
 }
+#audio-button {
+  position: fixed;
+  top: 4rem;
+  right: 1rem;
+  padding: 10px;
+  
+  display: block;
+  border: none;
+  background: none;
+  outline: none;
+  text-decoration: none;
+  color: #000000;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  transition: opacity 0.3s ease;
+}
+#audio-button:hover {
+opacity: 0.5;
+}
+.no-fade {
+  opacity: 1;
+}
