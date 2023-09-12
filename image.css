@@ -2,7 +2,7 @@ html {
   box-sizing: border-box;
 }
 #menu a.active-link {
-  color: #B52718;
+  color: #b52718;
 }
 .spacing {
   width: 100%;
@@ -16,7 +16,7 @@ a {
 .small {
   padding: 0;
   font-size: 18px;
-  font-family: 'Helvetica', sans-serif;
+  font-family: "Helvetica", sans-serif;
   line-height: 1.5rem;
 }
 *,
@@ -118,7 +118,7 @@ img.slide {
   margin-top: 40px;
   text-align: center;
 }
-#af-logo-home {
+#msqrd-logo-home {
   height: 20vh;
   z-index: 2;
   position: relative;
@@ -128,7 +128,7 @@ img.slide {
   width: 100%;
   text-align: center;
 }
-#af-logo {
+#msqrd-logo {
   max-width: 350px;
   padding-top: 40px;
   z-index: 2;
@@ -147,7 +147,7 @@ nav {
   transform-origin: top left;
 }
 #menu {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 #menu li {
   display: inline;
@@ -209,7 +209,7 @@ nav {
   .main-container {
     margin-top: 50px;
   }
-  #af-logo {
+  #msqrd-logo {
     max-width: 200px;
     padding-top: 40px;
     z-index: 2;
@@ -238,7 +238,7 @@ nav {
   }
 }
 @media (max-width: 1000px) {
-  #af-logo-home {
+  #msqrd-logo-home {
     width: 65%;
   }
 }
@@ -247,7 +247,7 @@ nav {
   top: 6%;
   right: 0.1%;
   padding: 10px;
-  
+
   display: block;
   border: none;
   background: none;
@@ -260,7 +260,7 @@ nav {
   transition: opacity 0.3s ease;
 }
 #audio-button:hover {
-opacity: 0.5;
+  opacity: 0.5;
 }
 .no-fade {
   opacity: 1;
