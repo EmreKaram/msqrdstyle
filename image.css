@@ -8,6 +8,16 @@ html {
   width: 100%;
   height: 50px;
 }
+.our-color {
+  color: #b52718;
+}
+.about-h {
+  font-size: 2.5rem;
+  font-family: Cinzel Decorative, cursive;
+}
+.about-p {
+  font-family: Cinzel Decorative, cursive;
+}
 a {
   text-decoration: none;
   transition: color ease-in 0.5s;
