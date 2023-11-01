@@ -2,5 +2,3 @@ Add a H1 heading to this page.
 Very important!
 Use good headings on the page.
 Very important!
-
-The page title is too short.
