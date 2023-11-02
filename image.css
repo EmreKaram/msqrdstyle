@@ -254,19 +254,13 @@ nav {
 }
 #audio-button {
   position: fixed;
-  top: 6%;
-  right: 0.1%;
-  padding: 10px;
-
+  top: 3rem;
+  right: 1rem;
+  padding: 0.5rem;
   display: block;
-  border: none;
   background: none;
-  outline: none;
-  text-decoration: none;
   color: #000000;
   cursor: pointer;
-  -webkit-appearance: none;
-  -moz-appearance: none;
   transition: opacity 0.3s ease;
 }
 #audio-button:hover {
