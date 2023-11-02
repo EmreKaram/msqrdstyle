@@ -5,8 +5,8 @@ window.addEventListener("DOMContentLoaded", (event) => {
   audio.play();
 });
 
-const volumeUpSVGPath = "png/volume-up.png";
-const volumeMuteSVGPath = "png/volume-mute.png";
+const volumeUp = "png/volume-up.png";
+const volumeMute = "png/volume-mute.png";
 
 const button = document.querySelector("#audio-button");
 const icon = document.querySelector("#audio-icon");
@@ -15,9 +15,9 @@ const audio = document.querySelector("audio");
 button.addEventListener("click", () => {
   if (audio.paused) {
     audio.play();
-    icon.src = volumeUpSVGPath;
+    icon.src = volumeUp;
   } else {
     audio.pause();
-    icon.src = volumeMuteSVGPath;
+    icon.src = volumeMute;
   }
 });
