@@ -5,8 +5,8 @@ window.addEventListener("DOMContentLoaded", (event) => {
   audio.play();
 });
 
-const volumeUpSVGPath = "svg/volume-up.svg";
-const volumeMuteSVGPath = "svg/volume-mute.svg";
+const volumeUpSVGPath = "png/volume-up.png";
+const volumeMuteSVGPath = "png/volume-mute.png";
 
 const button = document.querySelector("#audio-button");
 const icon = document.querySelector("#audio-icon");
